@@ -1,0 +1,33 @@
+.about-me {
+    height: 70vh;
+    width: 100vw;
+}
+
+.about-me-heading {
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.about-me-intro {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    
+}
+
+.profile-pic img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.intro {
+    height: 20vh;
+    width: 70vw;
+    padding-top: 5vh;
+    padding-left: 5vh;
+}

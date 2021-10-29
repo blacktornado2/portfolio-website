@@ -1,0 +1,46 @@
+.contact-heading {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 10vh;
+} 
+
+.content {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 2vh;
+}
+
+#e-mail {
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+    font-weight: 900;
+}
+
+.coding-profiles {
+    display: flex;
+    flex-direction: column;
+}
+
+.coding-profiles a{
+    text-decoration: none;
+    /* color: black; */
+    font-weight: 900;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.codechef {
+    color: red;
+}
+
+.geeksforgeeks {
+    color: rgb(47, 148, 0);
+}
+
+.hackerrank {
+    color: rgb(0, 197, 10);
+}
+
+.github {
+    color: black;
+}
