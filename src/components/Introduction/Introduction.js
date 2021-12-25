@@ -3,7 +3,7 @@ import './Introduction.css'
 
 export default function Introduction() {
     const nameHeading = `Hi, I am Ankit Bhardwaj`
-    const oneLiner = `A computer science student passionate about programming and web-development`
+    const oneLiner = `A final year computer science student passionate about programming and web-development`
 
     return (
         <div className="introduction">

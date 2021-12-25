@@ -5,9 +5,10 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
-::selection {
+*::selection {
     background-color: rgb(214, 2, 2);
     color: white;
 }

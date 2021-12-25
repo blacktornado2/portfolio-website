@@ -1,18 +1,26 @@
+.contact {
+    min-height: 40vh;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
 .contact-heading {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
-    padding-bottom: 10vh;
+    padding: 2rem 0;
+    font-weight: 900;
 } 
 
 .content {
     text-align: center;
-    font-size: 1.3rem;
-    padding-bottom: 2vh;
+    font-size: 1.5rem;
+    padding: 2vh;
+    line-height: 2;
 }
 
-#e-mail {
+.e-mail {
     text-decoration: none;
-    color: rgb(0, 60, 255);
+    color: rgb(54, 126, 241);
     font-weight: 900;
 }
 
@@ -21,17 +29,20 @@
     flex-direction: column;
 }
 
+.coding-profiles h1 {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
 .coding-profiles a{
     text-decoration: none;
     /* color: black; */
     font-weight: 900;
     font-size: 1.3rem;
     text-align: center;
+    padding: 0.6rem;
 }
 
-.codechef {
-    color: red;
-}
 
 .geeksforgeeks {
     color: rgb(47, 148, 0);
@@ -42,5 +53,13 @@
 }
 
 .github {
-    color: black;
+    color: rgb(192, 192, 192);
+}
+
+.leetcode {
+    color: rgb(250, 121, 0);
+}
+
+.codechef {
+    color: red;
 }
