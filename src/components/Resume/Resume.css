@@ -1,5 +1,5 @@
 .resume {
-    min-height: 14vh;
+    min-height: 15vh;
     background-color: rgb(238, 235, 235);
 }
 
@@ -28,4 +28,19 @@
 
 .resume-content a:hover {
     color: red;
+}
+
+/* Reponisveness */
+@media (max-width: 500px) {
+    .resume h1 {
+        font-size: 2rem;
+    }
+
+    .resume-content {
+        font-size: 1.3rem
+    }
+
+    .resume-content a {
+        font-size: 1.8rem;
+    }
 }

@@ -1,42 +1,44 @@
 .introduction {
-    height: 110vh;
-    width: 100vw;
-    background: url(../../Media/bg-black.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
+    min-height: 110vh;
+    width: 100%;
+    background: url(../../Media/bg-black.jpg) no-repeat center center/cover;
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .name-heading {
     color: #0bb893;
-    font-size: 50px;
+    font-size: 3rem;
     padding-top: 20vh;
 }
 
 .one-liner {
-    color: rgba(232, 228, 253, 0.959);
-    padding-top: 62vh;
-    font-size: 30px;
-    margin-bottom: 25px;
+    color: white;
+    padding-top: 65vh;
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
 }
 
 .see-work-btn {
-    height: 80px;
-    width: 200px;
-    margin: auto;
     background-color: rgb(82, 1, 82);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: white;
     text-decoration: none;
-    border-radius: 100px;
+    margin-bottom: 1.5rem;
 }
 
 .see-work-btn:hover {
     background-color: rgb(137, 204, 2);
     color: black;
+}
+
+/* Responisve */
+
+@media (max-width: 850px) {
+    .name-heading {
+        font-size: 2rem;
+    }
+
+    .one-liner {
+        font-size: 1.2rem;
+    }
 }

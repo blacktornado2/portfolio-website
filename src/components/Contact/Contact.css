@@ -34,9 +34,8 @@
     padding: 2rem 1rem;
 }
 
-.coding-profiles a{
+.coding-profiles a {
     text-decoration: none;
-    /* color: black; */
     font-weight: 900;
     font-size: 1.3rem;
     text-align: center;
@@ -62,4 +61,30 @@
 
 .codechef {
     color: red;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Responsiveness */
+@media (max-width: 500px) {
+    .contact-heading {
+        font-size: 2.5rem;
+    }
+
+    .content {
+        font-size: 1.1rem;
+    }
+
+    .coding-profiles h1 {
+        font-size: 1.8rem;
+    }
+
+    .coding-profiles a {
+        font-size: 1.2rem;
+    }
 }

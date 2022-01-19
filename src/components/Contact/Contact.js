@@ -21,7 +21,9 @@ export default function Contact() {
                 <a href="/" className="codechef">Codechef</a>
                 <a href="https://www.hackerrank.com/blacktornado2108" className="hackerrank">HackerRank</a>
             </div>
-            
+            <div className="copyright">
+                &copy; 2022, All Rights Reserved 
+            </div>
         </div>
     )
 }

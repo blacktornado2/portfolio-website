@@ -1,21 +1,27 @@
 .about-me {
-    height: 70vh;
+    min-height: 70vh;
     width: 100vw;
+    background: #ddd;
 }
 
 .about-me-heading {
     margin-top: 10vh;
     text-align: center;
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .about-me-intro {
     display: flex;
     font-size: 2rem;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 5vh;    
+    padding: 1rem;    
+    font-weight: 600;
+}
+
+.profile-pic {
+    padding: 1rem;
 }
 
 .profile-pic img{
@@ -27,5 +33,30 @@
 
 .intro {
     min-height: 20vh;
-    width: 70vw;
+    width: 70%;
+}
+
+/* Responsiveness */
+@media (max-width: 900px) {
+    .about-me-intro {
+        flex-direction: column;
+    }
+
+    .about-me-heading {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    .about-me-intro {
+        font-size: 1.4rem;
+    }
+
+    .intro {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .profile-pic {
+        padding: 2rem 1rem;
+    }
 }
